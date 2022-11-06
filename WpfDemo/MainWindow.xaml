@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="800">
+    <StackPanel>
+    <Grid >
+        <TextBox x:Name="txtblock1" Height="20" Width="80" Margin="60,199,660,665" Text="20.0"  TextWrapping="Wrap" TextChanged="txtblock1_TextChanged"/>
+        <Slider x:Name="slValue" Width="200" Minimum="20.0" Maximum="100.0" HorizontalAlignment="Left" Margin="46,39,0,824" TickPlacement="BottomRight" TickFrequency="0.5" IsSnapToTickEnabled="True" ValueChanged="slValue_ValueChanged"/>
+        <Button x:Name="button2" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="60" Margin="65,227,0,0" Content="Button" Click="button2_Click"/>
+        <Button x:Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="60"  Margin="65,307,0,0" Content="cancel" Click="button1_Click"/>
+        <Button x:Name="button" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="60" Margin="65,262,0,0" Content="OK" Click="button_Click" />
+        <Button x:Name="imagechange" VerticalAlignment="Top" HorizontalAlignment="Left" Height="36" Width="141" Content="changebackground" Margin="200,240,0,0" Click="imagechange_Click"/>
+         <TextBox x:Name="txtblock2" Height="20" Width="80" TextWrapping="Wrap" Text="TextBox" Margin="71,377,649,487" />
+        </Grid>
+    </StackPanel>
+</Window>           
