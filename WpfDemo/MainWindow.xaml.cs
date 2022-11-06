@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 
 namespace WpfDemo
 {
+    /// Test data
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
